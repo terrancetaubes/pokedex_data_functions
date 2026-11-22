@@ -1,0 +1,15 @@
+.git*
+.vscode
+.idea
+.venv
+venv
+__pycache__
+*.pyc
+.ipynb_checkpoints
+.pytest_cache
+local.settings.json
+local.settings.example.json
+test
+tests
+openapi
+README.md

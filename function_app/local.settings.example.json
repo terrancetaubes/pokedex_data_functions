@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<FUNCTIONS_HOST_STORAGE_CONNECTION_STRING>",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "STORAGE_ACCOUNT_NAME": "<your_storage_account_name>",
+    "STORAGE_CONTAINER_NAME": "pokemon",
+    "POKEMON_QUEUE_NAME": "pokemon-detail-jobs",
+    "PokemonQueue__queueServiceUri": "https://<your_storage_account_name>.queue.core.windows.net"
+  }
+}
